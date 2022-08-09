@@ -1,0 +1,15 @@
+{
+  "name": "RPLidar",
+  "version": "1.0.0",
+  "description": "Slamtec RPLidar A1 control software",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Gianluca Cornetta",
+  "license": "MIT",
+  "dependencies": {
+    "@tsofist/rplidar": "^2.3.0"
+  }
+}
