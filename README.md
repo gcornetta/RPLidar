@@ -5,7 +5,7 @@ Node.js control software for Slamtec A1 RP Lidar
 Detailed APIs documentation is available on the [project Wiki](https://github.com/gcornetta/RPLidar/wiki/). A detailed example is available in the `example` folder.
 
 ## Usage
-Make sure first that you have a working internet connection and that you have installed `node.js`and `git` on your computer then follow these steps:
+Make sure first that you have a working internet connection and that you have installed `node.js`and `git` on your computer, then follow these steps:
 1. clone this repo typing `git clone https://github.com/gcornetta/RPLidar.git`.
 2. in the project folder run `npm install` to install the project dependencies.
 3. type `npm start` to run the example.
