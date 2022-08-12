@@ -19,6 +19,6 @@ To use the driver in your project follow these steps:
 This software has been tested with `node.js v.16.6.0 LTS`. At the moment of writing this documentation the most recent `node.js` version was `v.18.7.0`.
 
 ## Disclaimer
-I warmly recommend running this sofware either on a `Mac` or in `PCs` with a `Linux` OS distribution.
+I warmly recommend running this sofware either on a `Mac` or in `PCs` with a `Linux` OS distribution since this software has **not** been tested on `Windows`.
 
 
