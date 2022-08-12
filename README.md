@@ -15,4 +15,10 @@ To use the driver in your project follow these steps:
 2. modify your `package.json` file adding the same dependencies of `RPLidar`
 3. instantiate the driver using `const Lidar = require('path/to/Lidar/folder')`
 
+## Software requirements
+This software has been tested with `node.js v.16.6.0 LTS`. At the moment of writing this documentation the most recent `node.js` version was `v.18.7.0`.
+
+## Disclaimer
+I warmly recommend running this sofware either on a `Mac` or in `PCs` with a `Linux` OS distribution.
+
 
