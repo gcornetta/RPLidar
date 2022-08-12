@@ -18,7 +18,7 @@ class Lidar extends RPLidar {
 
   /**
    * Connect: opens a connection with the device
-   * @returns { Promise } - Promise object with the connection to the device
+   * @returns { Promise } - Promise object with the connection status
    */
   async connect () {
    return new Promise((resolve, reject) => {
@@ -41,7 +41,7 @@ class Lidar extends RPLidar {
 
  /**
    * Disconnect: closes the  connection with the device
-   * @returns { Promise } - Promise object with the connection to the device
+   * @returns { Promise } - Promise object with the connection status
    */
   async disconnect () {
    return new Promise((resolve, reject) => {
@@ -64,7 +64,7 @@ class Lidar extends RPLidar {
 
  /**
    * startMotor: starts spinning the Lidar
-   * @returns { Promise } - Promise object with the connection to the device
+   * @returns { Promise } - Promise object with the motor status
    */
   async startMotor () {
    return new Promise((resolve, reject) => {
@@ -90,7 +90,7 @@ class Lidar extends RPLidar {
 
  /**
    * stopMotor: stops spinning the Lidar
-   * @returns { Promise } - Promise object with the connection to the device
+   * @returns { Promise } - Promise object with the motor status
    */
   async stopMotor () {
    return new Promise((resolve, reject) => {
@@ -115,7 +115,7 @@ class Lidar extends RPLidar {
 
  /**
    * startScan: starts scanning
-   * @returns { Promise } - Promise object with the connection to the device
+   * @returns { Promise } - Promise object with the scan status
    */
   async startScan () {
     return new Promise((resolve, reject) => {
@@ -140,7 +140,7 @@ class Lidar extends RPLidar {
 
  /**
    * stopScan: stops scanning
-   * @returns { Promise } - Promise object with the connection to the device
+   * @returns { Promise } - Promise object with the scan status
    */
   async stopScan () {
     return new Promise((resolve, reject) => {
@@ -176,7 +176,7 @@ class Lidar extends RPLidar {
 
  /**
    * getInfo: returns the Lidar information
-   * @returns { Promise } - Promise object with the connection to the device
+   * @returns { Promise } - Promise object with device info
    */
  async getInfo  () {
   return new Promise((resolve, reject) => {
@@ -194,7 +194,7 @@ class Lidar extends RPLidar {
  /**
    * Connect: returns the Lidar scanning speed (RPM or Hz)
    * @param { String } [s = rpm] - The format of Lidar speed
-   * @returns { Promise } - Promise object with the connection to the device
+   * @returns { Promise } - Promise object with the scan speed
    */
  async getScanSpeed  (s = 'rpm') {
   return new Promise((resolve, reject) => {
@@ -212,7 +212,7 @@ class Lidar extends RPLidar {
 
  /**
    * getHealth: returns the health of the device
-   * @returns { Promise } - Promise object with the connection to the device
+   * @returns { Promise } - Promise object with the device health
    */
  async getHealth  () {
   return new Promise((resolve, reject) => {
@@ -229,7 +229,7 @@ class Lidar extends RPLidar {
 
  /**
    * Connect: return the sampl ratesr
-   * @returns { Promise } - Promise object with the connection to the device
+   * @returns { Promise } - Promise object with the device sample rates
    */
  async getSampleRates  () {
   return new Promise((resolve, reject) => {
@@ -247,7 +247,7 @@ class Lidar extends RPLidar {
 
  /**
    * getScanModes: returns the scan modes of the device
-   * @returns { Promise } - Promise object with the connection to the device
+   * @returns { Promise } - Promise object with the device scan modes
    */
  async getScanModes  () {
   return new Promise((resolve, reject) => {
