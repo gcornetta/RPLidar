@@ -17,14 +17,6 @@ class Lidar extends RPLidar {
   }
 
   /**
-   * Getter method
-   * @returns { Object } -- object with the driver core
-   */
-  //get core () {
-  //  return this.driver
-  //}
-
-  /**
    * Connect: opens a connection with the device
    * @returns { Promise } - Promise object with the connection to the device
    */
