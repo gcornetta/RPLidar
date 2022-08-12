@@ -1,5 +1,5 @@
 ## Description
-Node.js control software for Slamtec A1 RP Lidar
+Node.js control software for Slamtec A1 RP Lidar. This software is part of the [JavaScript self-parking car project](https://github.com/gcornetta/self-parking-car).
 
 ## API documentation and usage examples
 Detailed APIs documentation is available on the [project Wiki](https://github.com/gcornetta/RPLidar/wiki/). A detailed example is available in the `example` folder.
