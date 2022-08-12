@@ -222,7 +222,7 @@ class Lidar extends RPLidar {
          resolve(health)
       })
       .catch( (e) => {
-         reject('<getHeath>: ' + e.message)
+         reject('<getHealth>: ' + e.message)
       })
    })
  }
