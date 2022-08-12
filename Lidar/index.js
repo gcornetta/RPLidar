@@ -233,7 +233,7 @@ class Lidar extends RPLidar {
    */
  async getSampleRates  () {
   return new Promise((resolve, reject) => {
-    // could use also 'this' instead of 'super' but I prefer 'super' since the method names are very similar
+    // could use also 'this' instead of 'super' but I prefer 'super' since the method names in the parent and child classes are very similar
     super
       .getSamplesRate()
       .then((sr) => {
