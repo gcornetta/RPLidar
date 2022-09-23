@@ -1,4 +1,4 @@
-const Lidar  = require('../Lidar')
+const { Lidar }  = require('../Lidar')
 const lidar = new Lidar()
 
 
