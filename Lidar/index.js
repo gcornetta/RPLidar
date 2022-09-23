@@ -264,4 +264,5 @@ class Lidar extends RPLidar {
 
 }
 
-module.exports = Lidar
+// named export
+module.exports = { Lidar }
